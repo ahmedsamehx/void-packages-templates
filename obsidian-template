@@ -1,14 +1,14 @@
 # srcpkgs/obsidian-bin/template
 pkgname=obsidian-bin
-version=1.8.10
+version=1.9.10
 revision=1
 only_for_archs="x86_64"
-short_desc="Obsidian — knowledge base that works on local Markdown files"
+short_desc="Obsidian"
 maintainer="Ahmed <ahmed-devel@proton.me>"
 license="Proprietary"
 homepage="https://obsidian.md"
 distfiles="https://github.com/obsidianmd/obsidian-releases/releases/download/v${version}/Obsidian-${version}.AppImage"
-checksum=05d4bfb76ef409ace4f4e59ccafb49dbd5a537c1ec15e570b59db603ddaad715
+checksum=24471d25ed4d7d797a20a8ddf7b81ec43ae337f9ce495514dfdbb893307472b7
 nostrip=yes
 
 do_extract() {
